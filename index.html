@@ -116,7 +116,6 @@ h1{font-family:'DM Serif Display',serif;font-size:28px;margin-bottom:2px}
  *  CONFIG — PUT YOUR INFO
  *  ========================= */
 const AIO_USER = "Bear2026_";
-const AIO_KEY  = "aio_eQWD07BcVqwInkG3KL6kRFTSkBkH";
 
 // Feed keys (must match what Feather publishes to)
 const FEED_ANGLE  = "posture-angle";
@@ -141,19 +140,20 @@ function withKey(url){
   return url + join + "x-aio-key=" + encodeURIComponent(AIO_KEY);
 }
 
-async function aioFetch(path){
-  const r = await fetch(withKey(aioUrl(path)));
-  if(!r.ok) throw new Error(`AIO ${r.status}`);
-  return r.json();
+function aioFetch(path){
+  // calls Netlify function, which adds the key server-side
+  return fetch(`/.netlify/functions/aio?path=${encodeURIComponent(path)}`)
+    .then(r => {
+      if(!r.ok) throw new Error(`AIO ${r.status}`);
+      return r.json();
+    });
 }
 
 async function aioLast(feed){
-  // /feeds/{feed}/data/last
   return aioFetch(`/feeds/${encodeURIComponent(feed)}/data/last`);
 }
 
 async function aioHistory(feed, limit){
-  // /feeds/{feed}/data?limit=...
   return aioFetch(`/feeds/${encodeURIComponent(feed)}/data?limit=${limit}`);
 }
 
