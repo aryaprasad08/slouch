@@ -136,10 +136,13 @@ let prev = "offline";
  *  ========================= */
 function aioUrl(path){ return `https://io.adafruit.com/api/v2/${AIO_USER}${path}`; }
 
+function withKey(url){
+  const join = url.includes("?") ? "&" : "?";
+  return url + join + "x-aio-key=" + encodeURIComponent(AIO_KEY);
+}
+
 async function aioFetch(path){
-  const r = await fetch(aioUrl(path), {
-    headers: { "X-AIO-Key": AIO_KEY }
-  });
+  const r = await fetch(withKey(aioUrl(path)));
   if(!r.ok) throw new Error(`AIO ${r.status}`);
   return r.json();
 }
