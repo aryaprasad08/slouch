@@ -139,12 +139,10 @@ A production version would:
 
 Place these in `assets/`:
 
-- Screenshot (Adafruit IO dashboard): `Slouch_webapp_demo.png`
-- Recording of how posture tracker: `assets/posture-tracker-demo.mov`
+- Screenshot (Adafruit IO dashboard): `[Slouch_webapp_demo.png](https://github.com/aryaprasad08/slouch/blob/main/media/Slouch_webapp_demo.png)`
+- Recording of how posture tracker: `[assets/posture-tracker-demo.mov`](https://github.com/aryaprasad08/slouch/blob/main/media/Slouch_screenrecoding.gif)
+- Recording of adafruit ESP32-S2 Rev TFT feather: [feather](https://github.com/aryaprasad08/slouch/blob/main/media/Slouch_screenrecoding.gif)
 
-Embed the screenshot:
-
-![Adafruit IO Dashboard](assets/adafruit-io-dashboard.png)
 
 ---
 
