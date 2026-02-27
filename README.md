@@ -139,8 +139,8 @@ A production version would:
 
 Place these in `assets/`:
 
-- Screenshot (Adafruit IO dashboard): `assets/adafruit-io-dashboard.png`
-- Screen recording: `assets/posture-tracker-demo.mov`
+- Screenshot (Adafruit IO dashboard): `Slouch_webapp_demo.png`
+- Recording of how posture tracker: `assets/posture-tracker-demo.mov`
 
 Embed the screenshot:
 
