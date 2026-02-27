@@ -139,8 +139,9 @@ A production version would:
 
 - Screenshot (Adafruit IO dashboard): <img width="2048" height="759" alt="Slouch_webapp_demo" src="https://github.com/user-attachments/assets/43669420-ba3c-4ad4-929a-683e9ac005c5" />
 
-- Recording of how posture tracker: ![Slouch_screenrecoding](https://github.com/user-attachments/assets/b4ce5efa-bd88-4525-a61e-9e857f4653f7)
-
+- Recording of how posture tracker:
+  
+- Adafruit_feather and sensor:
 
 ---
 
