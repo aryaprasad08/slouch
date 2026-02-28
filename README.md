@@ -156,9 +156,19 @@ A production version would:
 
 ## Visual Process
 
+<p align="center">
+  <img src="images/UB-SlouchMachine copy.jpg" width="50%">
+</p>
+
 This project combines embedded systems, wearable ergonomics, and rapid fabrication. The enclosure evolved through multiple iterations to balance comfort, sensor stability, manufacturability, and long-duration wearability.
 
 ## 3D CAD Design
+
+<p align="center">
+  <img src="images/SlouchCAD.png" width="50%">
+</p>
+
+CAD enclosure modeling showing component placement and wearable orientation.
 
 The enclosure was designed to house the Feather ESP32-S2 Reverse TFT, IMU wiring, and LiPo battery while remaining lightweight enough for wearable use.
 
@@ -212,6 +222,12 @@ https://drive.google.com/your-cad-video-link
 
 ## 3D Slicing and Printing
 
+<p align="center">
+  <img src="images/SlouchSlice.png" width="50%">
+</p>
+
+Slicer preparation showing print orientation and support generation.
+
 Models were prepared using FDM printing workflows emphasizing durability and repeatable assembly.
 
 Print considerations
@@ -240,6 +256,13 @@ https://drive.google.com/your-slicing-video-link
 
 ## Fabrication and Assembly
 
+<p align="center">
+  <img src="images/3DFinishedPrint.jpg" width="45%">
+  <img src="images/InitialProduct.jpg" width="45%">
+</p>
+
+Completed enclosure print followed by early hardware assembly prototype.
+
 Printed enclosures were post-processed and assembled with embedded electronics.
 
 Assembly process:
@@ -261,6 +284,12 @@ Assembly walkthrough:
 https://drive.google.com/your-assembly-video-link
 
 ## Final Product
+
+<p align="center">
+  <img src="images/WearingSlouch.png" width="50%">
+</p>
+
+Wearability and posture testing during real-world usage scenarios.
 
 The final wearable integrates hardware, firmware, and cloud visualization into a cohesive posture monitoring system.
 
