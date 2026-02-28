@@ -246,7 +246,7 @@ Typical settings:
 
 <p align="center">
   <img src="images/3DFinishedPrint.png" width="45%">
-  <img src="images/InitialProduct.jpg" width="45%">
+  <img src="images/FinalSlouch.png" width="45%">
 </p>
 
 Completed enclosure print followed by early hardware assembly prototype.
@@ -270,7 +270,12 @@ Tolerance adjustments were made across early prints to improve fit and prevent m
 
 Early enclosure assembly and electronics integration:
 
-https://drive.google.com/file/d/1crDYZxgLLTvSVz81fS-dJUKGRQsMUaWY/view?usp=sharing
+<p align="center">
+  <a href="
+https://drive.google.com/file/d/1crDYZxgLLTvSVz81fS-dJUKGRQsMUaWY/view?usp=sharing">
+    <img src="images/InitialProduct.jpg" width="50%">
+  </a>
+</p>
 
 ## Final Product
 
@@ -308,7 +313,7 @@ Posture angle detection in real time. (click image to see video)
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1AbkzzD-HoGZfyIwDuEWccdJo2HRMx0Ap/view?usp=sharing">
-    <img src="images/SlouchCalibrate.png" width="50%">
+    <img src="images/WearingSlouch.png" width="50%">
   </a>
 </p>
 
