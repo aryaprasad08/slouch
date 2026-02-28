@@ -261,8 +261,7 @@ Wiring was placed and secured along a flexible band to improve fit during wear.
 Early enclosure assembly and electronics integration: (click image to see video)
 
 <p align="center">
-  <a href="
-https://drive.google.com/file/d/1crDYZxgLLTvSVz81fS-dJUKGRQsMUaWY/view?usp=sharing">
+  <a href="https://drive.google.com/file/d/1crDYZxgLLTvSVz81fS-dJUKGRQsMUaWY/view?usp=sharing">
     <img src="images/InitialProduct.jpg" width="50%">
   </a>
 </p>
