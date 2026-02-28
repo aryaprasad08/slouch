@@ -157,7 +157,7 @@ A production version would:
 ## Visual Process
 
 <p align="center">
-  <img src="images/UB-SlouchMachine copy.jpg" width="50%">
+  <img src="images/UB-SlouchMachine copy.jpg" width="65%">
 </p>
 
 This project combines embedded systems, wearable ergonomics, and rapid fabrication. The enclosure evolved through multiple iterations to balance comfort, sensor stability, manufacturability, and long-duration wearability.
@@ -165,7 +165,7 @@ This project combines embedded systems, wearable ergonomics, and rapid fabricati
 ## 3D CAD Design
 
 <p align="center">
-  <img src="images/SlouchCAD.png" width="50%">
+  <img src="images/SlouchCAD.png" width="65%">
 </p>
 
 CAD enclosure modeling showing component placement and wearable orientation.
@@ -214,7 +214,7 @@ https://drive.google.com/your-cad-video-link
 ## 3D Slicing and Printing
 
 <p align="center">
-  <img src="images/SlouchSlice.png" width="50%">
+  <img src="images/SlouchSlice.png" width="65%">
 </p>
 
 Slicer preparation showing print orientation and support generation.
@@ -236,13 +236,13 @@ Typical settings:
 
 3D printing and enclosure fabrication:
 
-https://drive.google.com/file/d/1FbvyDCKWXbVOypSRtEGqt7djg1WBOWOk/view?usp=sharing 
+[![3D Printing Process](images/SlouchPrint.png)](https://drive.google.com/file/d/1FbvyDCKWXbVOypSRtEGqt7djg1WBOWOk/view?usp=sharing)
 
 ## Fabrication and Assembly
 
 <p align="center">
-  <img src="images/3DFinishedPrint.jpg" width="30%">
-  <img src="images/InitialProduct.jpg" width="45%">
+  <img src="images/3DFinishedPrint.png" width="50%">
+  <img src="images/InitialProduct.jpg" width="50%">
 </p>
 
 Completed enclosure print followed by early hardware assembly prototype.
@@ -292,4 +292,11 @@ Features:
 
 Full demonstration:
 
-https://drive.google.com/your-final-demo-video-link
+Sensor calibration and posture detection testing during real-world use.
+
+[![Calibration and Slouch Detection](images/SlouchCalibrate.png)](https://drive.google.com/YOUR-CalibrationAndSlouch-link)
+
+
+Live posture monitoring dashboard connected through Adafruit IO and Netlify proxy.
+
+[![Web Dashboard Demo](images/SlouchWeb.png)](https://drive.google.com/file/d/1KjgYxJG_VfTvVZ90FUxOWDMmCyMOeKok/view?usp=sharing)
