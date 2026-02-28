@@ -195,21 +195,9 @@ Key modifications:
 
 References:
 
-- Original enclosure reference: (add link)
-- Feather mounting reference: (add link)
-- Wearable clip inspiration: (add link)
+- Original enclosure reference: [(Reverse TFT Feather Case)](https://www.thingiverse.com/thing:5973529)
+- Wearable clip inspiration: [(Customizable Buckle)](https://www.thingiverse.com/thing:5101115/makes)
 
-### CAD Development
-
-Component Layout
-
-Exterior Render
-
-Wearable Orientation
-
-CAD walkthrough:
-
-https://drive.google.com/your-cad-video-link
 
 ## 3D Slicing and Printing
 
@@ -268,7 +256,7 @@ Tolerance adjustments were made across early prints to improve fit and prevent m
 
 ### Initial Assembly
 
-Early enclosure assembly and electronics integration:
+Early enclosure assembly and electronics integration: (click image to see video)
 
 <p align="center">
   <a href="
