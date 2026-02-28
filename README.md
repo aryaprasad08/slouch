@@ -1,8 +1,8 @@
-# Slouch Machine — Wearable Posture Tracker
+# Slouch Machine: A Wearable Posture Tracker
 
 ### Feather ESP32-S2 Reverse TFT • ICM-20948 IMU • Adafruit IO • Netlify
 
-#### Ubiquitous Computing — Spring 2026  
+#### Ubiquitous Computing - Spring 2026  
 **Nophar Shalom · Arya Prasad · Britney Ngaw**
 
 ---
