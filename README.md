@@ -152,6 +152,8 @@ A production version would:
 - **Dashboard not updating:** confirm Adafruit IO feed timestamps change; then test the Netlify proxy endpoint.
 - **Captive portal Wi-Fi:** may "connect" but block requests—use a hotspot for testing.
 
+---
+
 ## Visual Process
 
 This project combines embedded systems, wearable ergonomics, and rapid fabrication. The enclosure evolved through multiple iterations to balance comfort, sensor stability, manufacturability, and long-duration wearability.
