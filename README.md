@@ -1,10 +1,15 @@
-# Posture Tracker (Feather ESP32-S2 Reverse TFT + Adafruit IO + Netlify)
+# Slouch Machine — Wearable Posture Tracker
 
-## Ubiquitous Computing SP2026
-### Nophar Shalom - Arya Prasad - Britney Ngaw
+### Feather ESP32-S2 Reverse TFT • ICM-20948 IMU • Adafruit IO • Netlify
 
-A posture tracker using an Adafruit Feather ESP32-S2 Reverse TFT + ICM-20948 IMU.  
-The Feather publishes posture data to **Adafruit IO**. A hosted dashboard reads it through a **Netlify Function proxy** so the Adafruit IO key is **not exposed in the browser**.
+#### Ubiquitous Computing — Spring 2026  
+**Nophar Shalom · Arya Prasad · Britney Ngaw**
+
+---
+
+A wearable posture-tracking system built using the **Adafruit Feather ESP32-S2 Reverse TFT** and an **ICM-20948 IMU** sensor.
+
+The device measures body orientation and publishes posture data to **Adafruit IO** in real time. A hosted dashboard retrieves this data through a **Netlify Function proxy**, ensuring the Adafruit IO API key remains secure and is never exposed in the browser.
 
 ---
 
