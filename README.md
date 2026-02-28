@@ -151,3 +151,129 @@ A production version would:
 - **429 rate limit:** increase publish interval and/or only send on change.
 - **Dashboard not updating:** confirm Adafruit IO feed timestamps change; then test the Netlify proxy endpoint.
 - **Captive portal Wi-Fi:** may "connect" but block requests—use a hotspot for testing.
+
+## Visual Process
+
+This project combines embedded systems, wearable ergonomics, and rapid fabrication. The enclosure evolved through multiple iterations to balance comfort, sensor stability, manufacturability, and long-duration wearability.
+
+## 3D CAD Design
+
+The enclosure was designed to house the Feather ESP32-S2 Reverse TFT, IMU wiring, and LiPo battery while remaining lightweight enough for wearable use.
+
+Design goals
+
+- Stable IMU orientation relative to the user’s back
+
+- USB charging and reset accessibility
+
+- STEMMA QT cable strain relief
+
+- Comfortable wearable profile
+
+Early prototypes explored clip-based mounting and curved back surfaces to better conform to placement between the shoulder blades.
+
+## Reference Designs and Modifications
+
+Existing open-source Feather-compatible enclosures and wearable housings were referenced to understand tolerances, mounting geometry, and fabrication constraints.
+
+Key modifications:
+
+- Adjusted internal geometry for Reverse TFT depth
+
+- Redesigned IMU mounting alignment
+
+- Improved USB port clearance
+
+- Added wearable curvature and attachment features
+
+- Reinforced clip stress points
+
+References:
+
+- Original enclosure reference: (add link)
+
+- Feather mounting reference: (add link)
+
+- Wearable clip inspiration: (add link)
+
+### CAD Development
+
+Component Layout
+
+Exterior Render
+
+Wearable Orientation
+
+CAD walkthrough:
+
+https://drive.google.com/your-cad-video-link
+
+## 3D Slicing and Printing
+
+Models were prepared using FDM printing workflows emphasizing durability and repeatable assembly.
+
+Print considerations
+
+- Layer orientation optimized for clip strength
+
+- Reduced support material
+
+- Increased wall thickness near mounting areas
+
+Typical settings:
+
+- PLA or PETG
+
+- 0.2 mm layer height
+
+- 15–20% infill
+
+- Minimal supports
+
+### Slice Preparation
+
+Printing preparation demo:
+
+https://drive.google.com/your-slicing-video-link
+
+## Fabrication and Assembly
+
+Printed enclosures were post-processed and assembled with embedded electronics.
+
+Assembly process:
+
+1. Install Feather board using mounting standoffs.
+
+2. Route I2C wiring to the IMU.
+
+3. Secure LiPo battery internally.
+
+4. Adjust strap to fit user properly for calibration.
+
+Tolerance adjustments were made across early prints to improve fit and prevent movement during wear.
+
+### Assembly
+
+Assembly walkthrough:
+
+https://drive.google.com/your-assembly-video-link
+
+## Final Product
+
+The final wearable integrates hardware, firmware, and cloud visualization into a cohesive posture monitoring system.
+
+Features:
+
+- Real-time posture detection
+
+- On-device TFT feedback
+
+- Cloud logging through Adafruit IO
+
+- Secure dashboard visualization via Netlify proxy
+
+### Final Device
+
+Full demonstration:
+
+https://drive.google.com/your-final-demo-video-link
