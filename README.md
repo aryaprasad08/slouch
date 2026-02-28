@@ -1,9 +1,7 @@
 # Posture Tracker (Feather ESP32-S2 Reverse TFT + Adafruit IO + Netlify)
 
 ## Ubiquitous Computing SP2026
-### Nophar Shalom
-### Arya Prasad
-### Britney Ngaw
+### Nophar Shalom - Arya Prasad - Britney Ngaw
 
 A posture tracker using an Adafruit Feather ESP32-S2 Reverse TFT + ICM-20948 IMU.  
 The Feather publishes posture data to **Adafruit IO**. A hosted dashboard reads it through a **Netlify Function proxy** so the Adafruit IO key is **not exposed in the browser**.
