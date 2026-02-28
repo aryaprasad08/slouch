@@ -236,7 +236,11 @@ Typical settings:
 
 3D printing and enclosure fabrication (click image to see video):
 
-[![3D Printing Process](images/SlouchPrint.png)](https://drive.google.com/file/d/1FbvyDCKWXbVOypSRtEGqt7djg1WBOWOk/view?usp=sharing)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1FbvyDCKWXbVOypSRtEGqt7djg1WBOWOk/view?usp=sharing">
+    <img src="images/SlouchPrint.png" width="50%">
+  </a>
+</p>
 
 ## Fabrication and Assembly
 
@@ -294,9 +298,25 @@ Full demonstration:
 
 Sensor calibration and posture detection testing during real-world use. (click image to see video)
 
-[![Calibration and Slouch Detection](images/SlouchCalibrate.png)](https://drive.google.com/YOUR-CalibrationAndSlouch-link)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1eB8yDOSDPG94FNZO_nUaPzLeyFMZ-4ct/view?usp=sharing">
+    <img src="images/SlouchCalibrate.png" width="50%">
+  </a>
+</p>
 
+Posture angle detection in real time. (click image to see video)
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1AbkzzD-HoGZfyIwDuEWccdJo2HRMx0Ap/view?usp=sharing">
+    <img src="images/SlouchCalibrate.png" width="50%">
+  </a>
+</p>
 
 Live posture monitoring dashboard connected through Adafruit IO and Netlify proxy. (click image to see video)
 
-[![Web Dashboard Demo](images/SlouchWeb.png)](https://drive.google.com/file/d/1KjgYxJG_VfTvVZ90FUxOWDMmCyMOeKok/view?usp=sharing)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1KjgYxJG_VfTvVZ90FUxOWDMmCyMOeKok/view?usp=sharing">
+    <img src="images/SlouchWeb.png" width="50%">
+  </a>
+</p>
+
