@@ -175,11 +175,8 @@ The enclosure was designed to house the Feather ESP32-S2 Reverse TFT, IMU wiring
 Design goals
 
 - Stable IMU orientation relative to the user’s back
-
 - USB charging and reset accessibility
-
 - STEMMA QT cable strain relief
-
 - Comfortable wearable profile
 
 Early prototypes explored clip-based mounting and curved back surfaces to better conform to placement between the shoulder blades.
@@ -191,21 +188,15 @@ Existing open-source Feather-compatible enclosures and wearable housings were re
 Key modifications:
 
 - Adjusted internal geometry for Reverse TFT depth
-
 - Redesigned IMU mounting alignment
-
 - Improved USB port clearance
-
 - Added wearable curvature and attachment features
-
 - Reinforced clip stress points
 
 References:
 
 - Original enclosure reference: (add link)
-
 - Feather mounting reference: (add link)
-
 - Wearable clip inspiration: (add link)
 
 ### CAD Development
@@ -233,37 +224,31 @@ Models were prepared using FDM printing workflows emphasizing durability and rep
 Print considerations
 
 - Layer orientation optimized for clip strength
-
 - Reduced support material
-
 - Increased wall thickness near mounting areas
 
 Typical settings:
 
 - PLA or PETG
-
 - 0.2 mm layer height
-
 - 15–20% infill
-
 - Minimal supports
 
-### Slice Preparation
+3D printing and enclosure fabrication:
 
-Printing preparation demo:
-
-https://drive.google.com/your-slicing-video-link
+https://drive.google.com/file/d/1FbvyDCKWXbVOypSRtEGqt7djg1WBOWOk/view?usp=sharing 
 
 ## Fabrication and Assembly
 
 <p align="center">
-  <img src="images/3DFinishedPrint.jpg" width="45%">
+  <img src="images/3DFinishedPrint.jpg" width="30%">
   <img src="images/InitialProduct.jpg" width="45%">
 </p>
 
 Completed enclosure print followed by early hardware assembly prototype.
 
 Printed enclosures were post-processed and assembled with embedded electronics.
+
 
 Assembly process:
 
@@ -277,11 +262,11 @@ Assembly process:
 
 Tolerance adjustments were made across early prints to improve fit and prevent movement during wear.
 
-### Assembly
+### Initial Assembly
 
-Assembly walkthrough:
+Early enclosure assembly and electronics integration:
 
-https://drive.google.com/your-assembly-video-link
+https://drive.google.com/file/d/1crDYZxgLLTvSVz81fS-dJUKGRQsMUaWY/view?usp=sharing
 
 ## Final Product
 
