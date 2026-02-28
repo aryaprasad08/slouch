@@ -154,7 +154,7 @@ A production version would:
 
 ---
 
-## Visual Process
+# Visual Process
 
 <p align="center">
   <img src="images/UB-SlouchMachine copy.jpg" width="50%">
@@ -179,19 +179,15 @@ Design goals
 - STEMMA QT cable strain relief
 - Comfortable wearable profile
 
-Early prototypes explored clip-based mounting and curved back surfaces to better conform to placement between the shoulder blades.
-
 ## Reference Designs and Modifications
 
-Existing open-source Feather-compatible enclosures and wearable housings were referenced to understand tolerances, mounting geometry, and fabrication constraints.
+We used existing open-source Feather-compatible enclosures and wearable housings to understand tolerances, mounting geometry and dimensions, as well as fabrication constraints.
 
 Key modifications:
 
-- Adjusted internal geometry for Reverse TFT depth
-- Redesigned IMU mounting alignment
-- Improved USB port clearance
-- Added wearable curvature and attachment features
-- Reinforced clip stress points
+- Adjusted internal geometry for Reverse TFT depth with LiPo battery
+- Redesigned sides to include strap placement
+- Improved USB port clearance & added additional ports for wire clearance and battery connection
 
 References:
 
@@ -207,8 +203,6 @@ References:
 
 Slicer preparation showing print orientation and support generation.
 
-Models were prepared using FDM printing workflows emphasizing durability and repeatable assembly.
-
 Print considerations
 
 - Layer orientation optimized for clip strength
@@ -217,10 +211,10 @@ Print considerations
 
 Typical settings:
 
-- PLA or PETG
+- General PLA
 - 0.2 mm layer height
 - 15–20% infill
-- Minimal supports
+- Supports
 
 3D printing and enclosure fabrication (click image to see video):
 
@@ -244,15 +238,15 @@ Printed enclosures were post-processed and assembled with embedded electronics.
 
 Assembly process:
 
-1. Install Feather board using mounting standoffs.
+1. Install Feather board in case.
 
-2. Route I2C wiring to the IMU.
+2. Secure LiPo battery with outer wiring.
 
-3. Secure LiPo battery internally.
+3. Route I2C wiring to the IMU.
 
 4. Adjust strap to fit user properly for calibration.
 
-Tolerance adjustments were made across early prints to improve fit and prevent movement during wear.
+Wiring was placed and secured along a flexible band to improve fit during wear.
 
 ### Initial Assembly
 
@@ -313,3 +307,10 @@ Live posture monitoring dashboard connected through Adafruit IO and Netlify prox
   </a>
 </p>
 
+## Reflection
+
+We approached this project as an exploration of how wearable design, rapid fabrication, and behavioral feedback systems can come together to support everyday habits. Collaboration played a major role throughout the process. By sharing responsibilities across hardware development, fabrication, and interface design, we were able to continuously give feedback, challenge ideas, and improve each iteration together. As we moved through multiple physical prototypes, we quickly learned how small ergonomic adjustments could make a big difference in usability and long-term comfort, especially when informed by group testing and discussion.
+
+Calibration testing also highlighted how personal posture really is. Each of us sat and moved differently, and comparing those differences helped us understand how adaptable the system needed to be, which shows the importance of creating an accessible and adjustable device. Building both the hardware and the web interface in parallel reinforced the importance of thinking about the system holistically rather than separating interaction design, fabrication, and software into isolated stages. Rapid 3D printing allowed us to experiment quickly, while collaborative user testing showed how subtle feedback can encourage behavioral change without feeling distracting or intrusive.
+
+In future iterations, we would focus on further miniaturization, stronger enclosure materials, and clearer long-term data visualization. Additionally, adding more sensors, such as integrated buzzers, could create a more interactive system that clearly shows system status through  multiple outlets. Continuing to build on the teamwork and iterative workflow we developed during this project would help us create a more refined device that better supports everyday posture awareness.
